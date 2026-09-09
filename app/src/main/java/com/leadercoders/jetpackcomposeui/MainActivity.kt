@@ -15,6 +15,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.leadercoders.jetpackcomposeui.ders1.SelamlamaEkrani
+import com.leadercoders.jetpackcomposeui.ders2.D322_TemelDizilimler
+import com.leadercoders.jetpackcomposeui.ders2.D326_ProfilKarti
 import com.leadercoders.jetpackcomposeui.ui.theme.GR01_MYM_M3_JetpackComposeUITheme
 
 class MainActivity : ComponentActivity() {
@@ -26,10 +28,12 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Box(modifier = Modifier.padding(innerPadding)) {
 
-                        SelamlamaEkrani()
+//                   DERS-1
+//                    SelamlamaEkrani()
 
-
-
+//                       DERS2
+ //                       D322_TemelDizilimler()
+                        D326_ProfilKarti()
 
                     }
 
