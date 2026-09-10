@@ -7,16 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.paddingFrom
-import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.leadercoders.jetpackcomposeui.ders1.SelamlamaEkrani
-import com.leadercoders.jetpackcomposeui.ders2.D322_TemelDizilimler
-import com.leadercoders.jetpackcomposeui.ders2.D326_ProfilKarti
+import com.leadercoders.jetpackcomposeui.ders2.UrunDetayKarti
 import com.leadercoders.jetpackcomposeui.ui.theme.GR01_MYM_M3_JetpackComposeUITheme
 
 class MainActivity : ComponentActivity() {
@@ -33,7 +26,8 @@ class MainActivity : ComponentActivity() {
 
 //                       DERS2
  //                       D322_TemelDizilimler()
-                        D326_ProfilKarti()
+  //                      D326_ProfilKarti()
+                        UrunDetayKarti()
 
                     }
 
