@@ -10,6 +10,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.leadercoders.jetpackcomposeui.ders2.UrunDetayKarti
+import com.leadercoders.jetpackcomposeui.ders3.D332_TextBileseni
+import com.leadercoders.jetpackcomposeui.ders3.D333_ButonCesitleri
 import com.leadercoders.jetpackcomposeui.ui.theme.GR01_MYM_M3_JetpackComposeUITheme
 
 class MainActivity : ComponentActivity() {
@@ -25,9 +27,14 @@ class MainActivity : ComponentActivity() {
 //                    SelamlamaEkrani()
 
 //                       DERS2
- //                       D322_TemelDizilimler()
-  //                      D326_ProfilKarti()
-                        UrunDetayKarti()
+                        //                       D322_TemelDizilimler()
+                        //                      D326_ProfilKarti()
+                        //                      UrunDetayKarti()
+
+                        //Ders3
+
+                        D332_TextBileseni()
+                      //  D333_ButonCesitleri()
 
                     }
 
