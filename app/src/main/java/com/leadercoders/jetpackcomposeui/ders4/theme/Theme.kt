@@ -1,6 +1,5 @@
-package com.leadercoders.jetpackcomposeui.ui.theme
+package com.leadercoders.jetpackcomposeui.ders4.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

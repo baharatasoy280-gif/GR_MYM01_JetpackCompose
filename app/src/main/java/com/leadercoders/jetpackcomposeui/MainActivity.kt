@@ -9,12 +9,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.leadercoders.jetpackcomposeui.ders2.D326_ProfilKarti
-import com.leadercoders.jetpackcomposeui.ders2.UrunDetayKarti
-import com.leadercoders.jetpackcomposeui.ders3.D332_TextBileseni
-import com.leadercoders.jetpackcomposeui.ders3.D333_ButonCesitleri
-import com.leadercoders.jetpackcomposeui.ders3.D336_GununSozu
-import com.leadercoders.jetpackcomposeui.ui.theme.GR01_MYM_M3_JetpackComposeUITheme
+import com.leadercoders.jetpackcomposeui.ders4.BizeUlasin
+import com.leadercoders.jetpackcomposeui.ders4.D345_GirisYapEkrani
+import com.leadercoders.jetpackcomposeui.ders4.Proje_KullaniciKayitEkrani
+import com.leadercoders.jetpackcomposeui.ders4.theme.GR01_MYM_M3_JetpackComposeUITheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,7 +36,15 @@ class MainActivity : ComponentActivity() {
                      //   D332_TextBileseni()
                       //  D333_ButonCesitleri()
 
-                        D336_GununSozu()
+                       // D336_GununSozu()
+
+                      //  D344_KullanicidanVeriAlma()
+
+                      //  D345_GirisYapEkrani()
+
+                       // BizeUlasin()
+
+                       // Proje_KullaniciKayitEkrani()
 
                     }
 

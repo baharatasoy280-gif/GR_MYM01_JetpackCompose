@@ -1,4 +1,4 @@
-package com.leadercoders.jetpackcomposeui.ui.theme
+package com.leadercoders.jetpackcomposeui.ders4.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
