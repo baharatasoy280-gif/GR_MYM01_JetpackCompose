@@ -11,7 +11,6 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.leadercoders.jetpackcomposeui.ders4.BizeUlasin
 import com.leadercoders.jetpackcomposeui.ders4.D345_GirisYapEkrani
-import com.leadercoders.jetpackcomposeui.ders4.Proje_KullaniciKayitEkrani
 import com.leadercoders.jetpackcomposeui.ders4.theme.GR01_MYM_M3_JetpackComposeUITheme
 
 class MainActivity : ComponentActivity() {
@@ -45,6 +44,8 @@ class MainActivity : ComponentActivity() {
                        // BizeUlasin()
 
                        // Proje_KullaniciKayitEkrani()
+
+                        D345_GirisYapEkrani()
 
                     }
 
